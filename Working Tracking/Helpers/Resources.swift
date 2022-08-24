@@ -11,4 +11,22 @@ enum Resources {
 
         static let titleGray = UIColor(hexString: "#545C77")
     }
+
+    enum String {
+        enum TabBar {
+            static let overview = "Overview"
+            static let session = "Session"
+            static let progress = "Progress"
+            static let settings = "Settings"
+        }
+    }
+
+    enum Images {
+        enum TabBar {
+        static let overview = UIImage(named: "overview_tab")
+        static let session = UIImage(named: "session_tab")
+        static let progress = UIImage(named: "progress_tab")
+        static let settings = UIImage(named: "setting_tab")
+        }
+    }
 }
