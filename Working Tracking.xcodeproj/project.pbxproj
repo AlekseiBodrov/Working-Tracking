@@ -15,6 +15,7 @@
 		207623B728B6234700B0E24D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207623B628B6234700B0E24D /* TabBarController.swift */; };
 		207623BB28B6240300B0E24D /* UICollor+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207623BA28B6240300B0E24D /* UICollor+ext.swift */; };
 		207623BD28B6243300B0E24D /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207623BC28B6243300B0E24D /* Resources.swift */; };
+		207623BF28B62B9400B0E24D /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207623BE28B62B9300B0E24D /* NavBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		207623B628B6234700B0E24D /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		207623BA28B6240300B0E24D /* UICollor+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollor+ext.swift"; sourceTree = "<group>"; };
 		207623BC28B6243300B0E24D /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		207623BE28B62B9300B0E24D /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +64,7 @@
 			children = (
 				207623B828B623C300B0E24D /* Helpers */,
 				207623B428B61EA000B0E24D /* Application */,
-				207623A428B61E3300B0E24D /* ViewController.swift */,
-				207623B628B6234700B0E24D /* TabBarController.swift */,
+				207623C028B62C8500B0E24D /* Controllers */,
 				207623B528B61F2900B0E24D /* SupportingFiles */,
 			);
 			path = "Working Tracking";
@@ -103,6 +104,16 @@
 				207623BA28B6240300B0E24D /* UICollor+ext.swift */,
 			);
 			path = Extantion;
+			sourceTree = "<group>";
+		};
+		207623C028B62C8500B0E24D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				207623A428B61E3300B0E24D /* ViewController.swift */,
+				207623B628B6234700B0E24D /* TabBarController.swift */,
+				207623BE28B62B9300B0E24D /* NavBarController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +189,7 @@
 				207623BD28B6243300B0E24D /* Resources.swift in Sources */,
 				207623A528B61E3300B0E24D /* ViewController.swift in Sources */,
 				207623B728B6234700B0E24D /* TabBarController.swift in Sources */,
+				207623BF28B62B9400B0E24D /* NavBarController.swift in Sources */,
 				207623A128B61E3300B0E24D /* AppDelegate.swift in Sources */,
 				207623BB28B6240300B0E24D /* UICollor+ext.swift in Sources */,
 				207623A328B61E3300B0E24D /* SceneDelegate.swift in Sources */,
