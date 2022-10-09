@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		200B9D6728F1A42D0059EB2F /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B9D6628F1A42D0059EB2F /* SecondaryButton.swift */; };
 		207623A128B61E3300B0E24D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207623A028B61E3300B0E24D /* AppDelegate.swift */; };
 		207623A328B61E3300B0E24D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207623A228B61E3300B0E24D /* SceneDelegate.swift */; };
 		207623A528B61E3300B0E24D /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207623A428B61E3300B0E24D /* OverviewController.swift */; };
@@ -21,9 +22,11 @@
 		207623CC28B6303200B0E24D /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207623CB28B6303200B0E24D /* SessionController.swift */; };
 		207623CE28B6303E00B0E24D /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207623CD28B6303E00B0E24D /* ProgressController.swift */; };
 		207623D028B6304B00B0E24D /* Settingsontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207623CF28B6304B00B0E24D /* Settingsontroller.swift */; };
+		20E28ED128F1B5CF00ADA227 /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E28ED028F1B5CF00ADA227 /* OverviewNavBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		200B9D6628F1A42D0059EB2F /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 		2076239D28B61E3300B0E24D /* Working Tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Working Tracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		207623A028B61E3300B0E24D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		207623A228B61E3300B0E24D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +43,7 @@
 		207623CB28B6303200B0E24D /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
 		207623CD28B6303E00B0E24D /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		207623CF28B6304B00B0E24D /* Settingsontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settingsontroller.swift; sourceTree = "<group>"; };
+		20E28ED028F1B5CF00ADA227 /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		200B9D6528F1A39E0059EB2F /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				207623C628B62FE300B0E24D /* Views */,
+				207623A428B61E3300B0E24D /* OverviewController.swift */,
+			);
+			path = Overview;
+			sourceTree = "<group>";
+		};
 		2076239428B61E3300B0E24D = {
 			isa = PBXGroup;
 			children = (
@@ -123,7 +136,7 @@
 				207623CA28B6300400B0E24D /* Settings */,
 				207623C928B62FFC00B0E24D /* Progress */,
 				207623C828B62FF300B0E24D /* Session */,
-				207623C628B62FE300B0E24D /* Overview */,
+				200B9D6528F1A39E0059EB2F /* Overview */,
 				207623C528B62F7500B0E24D /* Base */,
 			);
 			path = Controllers;
@@ -139,12 +152,13 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
-		207623C628B62FE300B0E24D /* Overview */ = {
+		207623C628B62FE300B0E24D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				207623A428B61E3300B0E24D /* OverviewController.swift */,
+				200B9D6628F1A42D0059EB2F /* SecondaryButton.swift */,
+				20E28ED028F1B5CF00ADA227 /* OverviewNavBar.swift */,
 			);
-			path = Overview;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		207623C828B62FF300B0E24D /* Session */ = {
@@ -243,10 +257,12 @@
 			files = (
 				207623D028B6304B00B0E24D /* Settingsontroller.swift in Sources */,
 				207623BD28B6243300B0E24D /* Resources.swift in Sources */,
+				20E28ED128F1B5CF00ADA227 /* OverviewNavBar.swift in Sources */,
 				207623CE28B6303E00B0E24D /* ProgressController.swift in Sources */,
 				207623A528B61E3300B0E24D /* OverviewController.swift in Sources */,
 				207623B728B6234700B0E24D /* TabBarController.swift in Sources */,
 				207623BF28B62B9400B0E24D /* NavBarController.swift in Sources */,
+				200B9D6728F1A42D0059EB2F /* SecondaryButton.swift in Sources */,
 				207623CC28B6303200B0E24D /* SessionController.swift in Sources */,
 				207623A128B61E3300B0E24D /* AppDelegate.swift in Sources */,
 				207623BB28B6240300B0E24D /* UICollor+ext.swift in Sources */,

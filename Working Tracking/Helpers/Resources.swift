@@ -7,7 +7,7 @@ enum Resources {
 
         static let background = UIColor(hexString: "#F8F9F9")
         static let seporator = UIColor(hexString: "#E8ECEF")
-        static let seconderuy = UIColor(hexString: "#F0F3FF")
+        static let secondary = UIColor(hexString: "#F0F3FF")
 
         static let titleGray = UIColor(hexString: "#545C77")
     }
@@ -19,6 +19,27 @@ enum Resources {
             static let progress = "Progress"
             static let settings = "Settings"
         }
+
+        enum NavBar {
+            static let overview = "Today"
+            static let session = "High Intensity Cardio"
+            static let progress = "Workout Progress"
+            static let settings = "Settings"
+        }
+
+        enum Overview {
+            static let allWorkoutsButton = "All Workouts"
+        }
+
+        enum Session {
+            static let navBarLeft = "Pause"
+            static let navBarRight = "Finish"
+        }
+        enum Progress {
+            static let navBarLeft = "Export"
+            static let navBarRight = "Details"
+        }
+
     }
 
     enum Images {
@@ -27,6 +48,10 @@ enum Resources {
         static let session = UIImage(named: "session_tab")
         static let progress = UIImage(named: "progress_tab")
         static let settings = UIImage(named: "setting_tab")
+        }
+
+        enum Common {
+            static let downArrow = UIImage(named: "downArrow")
         }
     }
 
